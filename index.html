@@ -1,117 +1,111 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>IT-Bewerbung – Venis Ibrahimi</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>IT-Bewerbung – Venis Ibrahimi</title>
 
-  <link rel="stylesheet" href="assets/css/style.css" />
+<link rel="stylesheet" href="assets/css/style.css"/>
 
-  <style>
-    /* KLAR & SCHLICHT */
-    body{background:#ffffff;color:#111827;font-family:Arial, Helvetica, sans-serif;}
+<style>
+body{background:#fff;color:#0f172a;font-family:Arial,Helvetica,sans-serif;margin:0;}
+header{position:sticky;top:0;background:#fff;border-bottom:1px solid #e5e7eb;}
+nav{max-width:900px;margin:auto;display:flex;align-items:center;justify-content:space-between;padding:10px 16px;}
+nav ul{list-style:none;display:flex;gap:18px;margin:0;padding:0;}
+nav a{text-decoration:none;color:#374151;font-size:14px;}
+nav a:hover{color:#111827;}
 
-    header{border-bottom:1px solid #e5e7eb;background:#ffffff;}
-    .nav__logo{font-weight:700;}
+main{max-width:900px;margin:auto;padding:18px;}
 
-    section{padding:32px 0;border-bottom:1px solid #f1f5f9;}
-    .section__title{margin:0 0 6px 0;font-size:22px;}
-    .section__subtitle{color:#6b7280;font-size:14px;}
+.section{padding:26px 0;border-bottom:1px solid #f3f4f6;}
+.section__title{margin:0 0 6px 0;font-size:22px;}
+.section__subtitle{margin-bottom:12px;color:#6b7280;font-size:13px;display:block;}
 
-    .button{
-      background:#111827;
-      color:#ffffff;
-      padding:9px 16px;
-      border-radius:4px;
-      border:0;
-      text-decoration:none;
-      display:inline-block;
-    }
+.about-grid{display:grid;grid-template-columns:220px 1fr;gap:18px;align-items:center;}
+.about-grid img{width:100%;border-radius:6px;}
 
-    img.about__img{
-      max-width:260px;
-      border-radius:8px;
-    }
+ul{margin-top:6px;}
+.button{background:#111827;color:#fff;padding:8px 14px;border-radius:4px;text-decoration:none;display:inline-block;margin-top:6px;}
 
-    ul{margin:12px 0 0 16px;}
-  </style>
+.project-buttons a{margin-right:8px;margin-bottom:4px;}
+footer{text-align:center;padding:12px;color:#6b7280;font-size:13px;}
+</style>
 </head>
 
 <body>
 
-<header class="header">
-  <nav class="nav container">
-    <a class="nav__logo" href="#">Venis Ibrahimi</a>
-
-    <ul class="nav__list grid">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">Über mich</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#portfolio">Projekte</a></li>
-      <li><a href="#certificates">Zertifikate</a></li>
-      <li><a href="#documents">Dokumente</a></li>
-      <li><a href="#contact">Kontakt</a></li>
-    </ul>
-  </nav>
+<header>
+<nav>
+  <strong>Venis Ibrahimi</strong>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">Über mich</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#portfolio">Projekte</a></li>
+    <li><a href="#certificates">Zertifikate</a></li>
+    <li><a href="#documents">Dokumente</a></li>
+    <li><a href="#contact">Kontakt</a></li>
+  </ul>
+</nav>
 </header>
 
 <main>
 
-<section id="home">
-  <h2 class="section__title">Hallo, ich bin Venis Ibrahimi</h2>
-  <p>
-    IT-interessierter Schüler mit Motivation für eine Ausbildung im IT-Bereich.
-    Ich lerne Programmierung, arbeite mit Scratch und beschäftige mich mit Web-Technologien.
-  </p>
+<section id="home" class="section">
+  <h2 class="section__title">Hallo — ich bin Venis Ibrahimi</h2>
+  <p>IT-interessierter Schüler mit Motivation für eine Ausbildung im IT-Bereich.</p>
 </section>
 
-<section id="about">
+<section id="about" class="section">
   <h2 class="section__title">Über mich</h2>
   <span class="section__subtitle">Kurzvorstellung</span>
 
-  <img src="assets/img/Venis_Bild.jpg" alt="Venis Ibrahimi" class="about__img">
-
-  <p>
-    Ich arbeite mit Scratch, um Programmierlogik zu verstehen.
-    Zusätzlich lerne ich HTML & CSS. Ich bin zuverlässig, motiviert und lernbereit.
-  </p>
+  <div class="about-grid">
+    <img src="assets/img/Venis_Bild.jpg" alt="Venis Ibrahimi">
+    <p>
+      Ich arbeite mit Scratch, um Programmierlogik zu verstehen.
+      Zusätzlich lerne ich HTML & CSS.  
+      Ich bin zuverlässig, motiviert und lernbereit.
+    </p>
+  </div>
 </section>
 
-<section id="skills">
+<section id="skills" class="section">
   <h2 class="section__title">Skills</h2>
   <span class="section__subtitle">Grundkenntnisse</span>
 
   <ul>
     <li>Scratch (Spiele & Logik)</li>
     <li>HTML & CSS Grundlagen</li>
-    <li>Logisches Denken & Problemlösung</li>
+    <li>Logisches Denken</li>
     <li>Eigenständiges Lernen</li>
   </ul>
 </section>
 
-<section id="portfolio">
+<section id="portfolio" class="section">
   <h2 class="section__title">Projekte</h2>
   <span class="section__subtitle">Scratch – herunterladen & in Scratch öffnen</span>
 
   <p>Scratch → <strong>Datei → Von deinem Computer laden</strong></p>
 
-  <p><a class="button" href="assets/scratch/venis-projekt.sb3" download>venis-projekt.sb3</a></p>
-  <p><a class="button" href="assets/scratch/venis-fishingsim.sb3" download>venis-fishingsim.sb3</a></p>
+  <div class="project-buttons">
+    <a class="button" href="assets/scratch/venis-projekt.sb3" download>venis-projekt.sb3</a>
+    <a class="button" href="assets/scratch/venis-fishingsim.sb3" download>venis-fishingsim.sb3</a>
+  </div>
 </section>
 
-<section id="certificates">
+<section id="certificates" class="section">
   <h2 class="section__title">Zertifikate</h2>
   <a class="button" target="_blank" href="assets/pdf/Zertifikate-IT.pdf">Zertifikate ansehen</a>
 </section>
 
-<section id="documents">
+<section id="documents" class="section">
   <h2 class="section__title">Bewerbungsdokumente</h2>
-
-  <p><a class="button" target="_blank" href="assets/pdf/Lebenslauf-Venis.pdf">Lebenslauf</a></p>
-  <p><a class="button" target="_blank" href="assets/pdf/Stellwerk-Venis.pdf">Stellwerk</a></p>
+  <a class="button" target="_blank" href="assets/pdf/Lebenslauf-Venis.pdf">Lebenslauf</a>
+  <a class="button" target="_blank" href="assets/pdf/Stellwerk-Venis.pdf">Stellwerk</a>
 </section>
 
-<section id="contact">
+<section id="contact" class="section">
   <h2 class="section__title">Kontakt</h2>
 
   <p><strong>Email:</strong> venis.ibrahimi10@gmail.com</p>
@@ -122,7 +116,7 @@
 </main>
 
 <footer>
-  <p>© 2025 Venis Ibrahimi</p>
+  © 2025 Venis Ibrahimi
 </footer>
 
 </body>
