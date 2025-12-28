@@ -17,6 +17,41 @@
     <!-- HAUPT-CSS DES ORIGINAL-TEMPLATES -->
     <link rel="stylesheet" href="assets/css/style.css" />
 
+    <!-- SERIÖSERES DESIGN: FARBTÖNE ETWAS RUHIGER / HELLER -->
+    <style>
+        :root {
+            /* Primärfarbe: seriöses Blau statt knalligem Pink/Lila */
+            --first-color: #2563eb;
+            --first-color-alt: #1d4ed8;
+            --first-color-lighter: #dbeafe;
+
+            /* Text & Hintergrund ruhiger/heller */
+            --title-color: #0f172a;
+            --text-color: #374151;
+            --body-color: #ffffff;
+            --container-color: #ffffff;
+        }
+
+        body {
+            background-color: var(--body-color);
+        }
+
+        .section__title,
+        .footer__title {
+            text-transform: none; /* kein komplett GROSS, wirkt seriöser */
+        }
+
+        .button {
+            border-radius: 999px;
+            padding: 0.6rem 1.4rem;
+            font-size: 0.9rem;
+        }
+
+        .about__img {
+            border-radius: 12px;
+        }
+    </style>
+
     <title>Bewerbung – Venis Ibrahimi</title>
 
     <link rel="shortcut icon" href="assets/img/favicon_edited.png" type="image/png" />
@@ -197,7 +232,7 @@
                                 <h3 class="skills__name">Analytisches Denken</h3>
                             </div>
                         </div>
-                            <div class="skills__data">
+                        <div class="skills__data">
                             <div class="skills__titles">
                                 <h3 class="skills__name">Selbstständiges Lernen</h3>
                             </div>
