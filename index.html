@@ -4,20 +4,20 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="IT-interessierter Schüler – Online-Bewerbungsportfolio">
-    <meta name="keywords" content="IT Bewerbung, Schüler, Scratch, Portfolio" />
+    <meta name="description" content="Online-Bewerbungsportfolio von Venis Ibrahimi" />
+    <meta name="keywords" content="Bewerbung, Informatik, Schüler, Scratch, Portfolio" />
 
     <!-- UNICONS -->
     <link rel="stylesheet"
           href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
 
-    <!-- (falls im Template genutzt) -->
+    <!-- SWIPER CSS (falls im Template genutzt) -->
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 
-    <!-- HAUPT-DESIGN -->
+    <!-- HAUPT-CSS DES ORIGINAL-TEMPLATES -->
     <link rel="stylesheet" href="assets/css/style.css" />
 
-    <title>IT-Bewerbung – Venis Ibrahimi</title>
+    <title>Bewerbung – Venis Ibrahimi</title>
 
     <link rel="shortcut icon" href="assets/img/favicon_edited.png" type="image/png" />
 </head>
@@ -71,6 +71,7 @@
             </div>
 
             <div class="nav__btns">
+                <!-- Theme button -->
                 <i class="uil uil-moon change-theme" id="theme-button"></i>
 
                 <div class="nav__toggle" id="nav-toggle">
@@ -155,7 +156,7 @@
                     <p class="about__description">
                         Ich bin ein neugieriger Schüler mit grosser Leidenschaft für Informatik.
                         Programmierung, Cybersecurity und Netzwerke faszinieren mich — mit Scratch,
-                        Python und C# sammle ich bereits praktische Erfahrungen.
+                        Python und C# sammle ich bereits praktische Erfahrungen. 
                         Ich arbeite zuverlässig, denke analytisch und lerne gern selbstständig weiter.
                         Mein Ziel ist es, mich fachlich weiterzuentwickeln und meinen Platz in der
                         IT-Welt zu finden — Schritt für Schritt mit viel Motivation.
@@ -181,22 +182,39 @@
                     </div>
 
                     <div class="skills__list grid">
-                        <div class="skills__data"><h3 class="skills__name">Scratch</h3></div>
-                        <div class="skills__data"><h3 class="skills__name">HTML &amp; CSS</h3></div>
-                        <div class="skills__data"><h3 class="skills__name">Analytisches Denken</h3></div>
-                        <div class="skills__data"><h3 class="skills__name">Selbstständiges Lernen</h3></div>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Scratch (Spiele &amp; Logik)</h3>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">HTML &amp; CSS – Grundlagen</h3>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Analytisches Denken</h3>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Selbstständiges Lernen</h3>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!--==================== PROJECTS ====================-->
+        <!--==================== PROJECTS / SCRATCH ====================-->
         <section class="portfolio section" id="portfolio">
             <h2 class="section__title">Projekte</h2>
             <span class="section__subtitle">Scratch – herunterladen &amp; öffnen</span>
 
             <div class="portfolio__container container grid">
 
+                <!-- Projekt 1 -->
                 <div class="portfolio__content grid">
                     <div class="portfolio__data">
                         <h3 class="portfolio__title">venis-projekt.sb3</h3>
@@ -212,11 +230,12 @@
                     </div>
                 </div>
 
+                <!-- Projekt 2 -->
                 <div class="portfolio__content grid">
                     <div class="portfolio__data">
                         <h3 class="portfolio__title">venis-fishingsim.sb3</h3>
                         <p class="portfolio__description">
-                            Eigenes Scratch-Spiel. Öffnen über
+                            Eigenes Scratch-Spiel. In Scratch öffnen über
                             <strong>Datei → Von deinem Computer laden</strong>.
                         </p>
                         <a href="assets/scratch/venis fishingsim.sb3"
@@ -254,24 +273,28 @@
                    target="_blank"
                    href="assets/pdf/Lebenslauf-Venis.pdf">
                     Lebenslauf
+                    <i class="uil uil-arrow-right button__icon"></i>
                 </a>
 
                 <a class="button button--flex button--small"
                    target="_blank"
                    href="assets/pdf/Stellwerk-Venis.pdf">
                     Stellwerk
+                    <i class="uil uil-arrow-right button__icon"></i>
                 </a>
 
                 <a class="button button--flex button--small"
                    target="_blank"
                    href="assets/pdf/Oberstufenzeugnisse.pdf">
                     Oberstufenzeugnisse
+                    <i class="uil uil-arrow-right button__icon"></i>
                 </a>
 
                 <a class="button button--flex button--small"
                    target="_blank"
                    href="assets/pdf/Zertifikate-IT.pdf">
                     Zertifikate (Sammlung)
+                    <i class="uil uil-arrow-right button__icon"></i>
                 </a>
             </div>
         </section>
@@ -279,6 +302,7 @@
         <!--==================== CONTACT ====================-->
         <section class="contact section" id="contact">
             <h2 class="section__title">Kontakt</h2>
+            <span class="section__subtitle">So können Sie mich erreichen</span>
 
             <div class="contact__container container grid">
                 <div class="contact__information">
@@ -330,14 +354,13 @@
             </div>
 
             <p class="footer__copy">
-                &copy; 2025 Venis Ibrahimi – IT-Bewerbung
+                &copy; 2025 Venis Ibrahimi – Online-Bewerbung
             </p>
         </div>
     </footer>
 
-    <!--==================== TEMPLATE JS ====================-->
+    <!--==================== JS AUS DEM TEMPLATE ====================-->
     <script src="assets/js/swiper-bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 </html>
-
